@@ -1,0 +1,94 @@
+body { 
+    margin: 0;
+    background-color: #252525;
+    height: 100vh;
+    font-family: 'Muli', sans-serif;
+}
+
+header {
+    width:100%;
+    height:90px;
+    background-color:#343434;
+}
+
+div#header_central {
+    position: relative;
+    width:980px;
+    height:67px;
+    margin:0 auto;
+}
+
+div#header_central img {
+    margin-top:20px;   
+}
+div#header_saudacao {
+    position: absolute;
+    top:0;
+    right:0px;
+    text-align: right;
+}
+
+div#header_saudacao h5 {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    margin:20px 0 0 0; 
+    padding:0;
+    color: #ffffff;
+}
+
+div#header_saudacao h5 > a {
+    color: #9BFDA8;
+}
+
+.list {
+    color: #ffffff;
+}
+
+/* home */
+
+.user-detail-container {
+    max-width: max-content;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin: 0 auto;
+    background-color: #343434;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 50px;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0px 1px 15px #0000004a;
+}
+
+.user-detail-container h1, h2, p {
+    color: #ffffff;
+}
+
+.user-detail-container span {
+    color: #9bfda8;
+}
+
+.user-detail-container h1 {
+    font-size: 34px;
+}
+
+.user-detail-container h2 {
+    font-size: 32px;
+}
+
+.user-detail-container p {
+    font-size: 24px;
+}
+
+.user-detail-container p > a {
+    color: #9bfda8;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.user-detail-container p > a:hover {
+    text-decoration: underline;
+}
